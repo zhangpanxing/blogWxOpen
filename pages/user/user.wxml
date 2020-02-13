@@ -1,0 +1,9 @@
+<view class="data_css">
+  <view class='head_portrait'>
+    <open-data type="userAvatarUrl" class="head_portrait_image"></open-data>
+  </view>
+  <view class='head_portrait_nikename'>
+      <open-data class="NickName" type="userNickName" lang="zh_CN"></open-data>  
+  </view>
+</view>
+

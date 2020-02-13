@@ -1,0 +1,45 @@
+{
+  "pages": [
+      "pages/index/index",
+      "pages/cart/cart",
+      "pages/user/user",
+      "pages/classify/classify"
+      
+      ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "小程序Demo",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "简历",
+      "iconPath": "image/简历.png",
+      "selectedIconPath": "image/简历 (1).png"
+    },
+    {
+      "pagePath": "pages/classify/classify",
+      "text": "博客",
+      "iconPath": "image/博客_blogger3.png",
+      "selectedIconPath": "image/博客_blogger3 (1).png"
+    },
+    {
+      "pagePath": "pages/cart/cart",
+      "text": "联系",
+      "iconPath": "image/短信.png",
+      "selectedIconPath": "image/短信 (1).png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "我的",
+      "iconPath": "image/我的 (1).png",
+      "selectedIconPath": "image/我的.png"
+    }
+    
+    ]
+  }
+}

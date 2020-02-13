@@ -1,0 +1,3 @@
+<view class="resume">
+  <rich-text nodes="{{htmlTest}}"></rich-text>
+</view>
